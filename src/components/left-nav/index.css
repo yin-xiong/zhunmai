@@ -1,0 +1,10 @@
+.left-nav {
+  user-select: none;
+}
+.left-nav .logo {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  margin: 20px auto;
+  height: 80px;
+}
