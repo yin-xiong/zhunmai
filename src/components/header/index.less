@@ -1,6 +1,25 @@
 .header{
     height: 80px;
-    margin-bottom: 2px;
     overflow:hidden;
-    background-color: #f1e7e7;
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 0 30px;
+    text-align: right;
+    .flex{
+        width: 100%;
+        height: 100%;
+        justify-content: flex-end;
+        align-items: center;
+        .welcome{
+            cursor: pointer;
+            margin-right: 20px;
+        }
+        .exit:hover,
+        .welcome:hover i{
+            color: #1890ff;
+        }
+        .exit{
+            cursor: pointer;
+        }
+    }
 }

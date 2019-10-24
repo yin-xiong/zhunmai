@@ -33,7 +33,7 @@ export default class Admin extends Component {
                     <Sider><LeftNav></LeftNav></Sider>
                     <Layout>
                         <Header></Header>
-                        <Content style={{backgroundColor:"#fff"}}>
+                        <Content style={{backgroundColor:"#fff",margin:'30px',boxSizing:'border-box'}}>
                             <Switch>
                                 <Route path='/home' component={Home}></Route> {/*用户管理*/}
                                 <Route path='/announcement' component={Announcement}></Route>  {/*公告管理*/}
